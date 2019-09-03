@@ -1,0 +1,28 @@
+.gridItem {
+  position: relative;
+  border-right: 8px solid black;
+  border-bottom: 8px solid black;
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+}
+
+.gridItemRight {
+  border-right: none;
+}
+
+.gridItemBottom {
+  border-bottom: none;
+}
+
+.gridItemCorner {
+  border: none;
+}
+
+.gridMark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}

@@ -1,0 +1,9 @@
+.GridInput {
+  margin: 16px 0;
+}
+
+.GridInputBox, .GridSubmitButton {
+  border-radius: 8px;
+  height: 24px;
+  margin: 0 8px;
+}
