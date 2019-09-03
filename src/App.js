@@ -75,7 +75,6 @@ class App extends React.Component {
       isPlayerOne: !isPlayerOne,
       markedGrids: markedGrids + 1,
       virtualGrid}, () => {
-        console.log(markedGrids + 1, gridSize * gridSize);
         if(markedGrids + 1 >= gridSize) {
           setTimeout(() => this._checkWin(), 100);
         }
